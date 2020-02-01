@@ -1,0 +1,50 @@
+
+---> creating network...
+docker network ls
+docker network create name --subnet ___ --gateway ___
+
+
+--->kubernetes
+
+
+in pods(smallest atomic unit) we have single or multiple containers
+
+90% uses single container pods
+
+label- user defined key value pair
+services
+selectors
+namespaces
+
+pod to pod - east west traffic(inside traffic)
+
+outside traffic - north south
+
+kaliko, flanel - network plugins in kubernetes 
+
+pod cidr range
+
+it supports json or yaml.
+kubectl - cli
+
+in kubernetes everything is in api
+kubectl explain service--command
+
+we have controllers in kubernetes to control
+
+workloads:- 
+replicaset
+deployment
+deamon set
+stateful set
+job
+cronjob
+
+
+stateless application in kubernetes run as deployment
+
+rolling update---maxsurge, maxunavailable
+
+stateful applications - stateful set
+
+
