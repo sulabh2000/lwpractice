@@ -1,0 +1,27 @@
+--->docker installation
+docs.docker.com/install
+docs.docker.com/get-docker
+
+
+--->docker networking
+
+. container network model - lib network(docker implements this)
+. ipam -- ipaddresses
+. docker0 is a default bridge
+---docker container run -p 8080:80
+. 8080-host port
+. 80-container port
+--network=none --->command 
+
+. vxlan technology we use
+
+docker overlay network
+
+
+bridge and host are single host netwoking
+
+docker swarm uses overlay network
+kubernetes uses cni model
+
+
+
