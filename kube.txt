@@ -47,4 +47,6 @@ rolling update---maxsurge, maxunavailable
 
 stateful applications - stateful set
 
+it uses wrap algorithm latex
+
 
