@@ -1,0 +1,30 @@
+kubernetes:-
+
+--batching
+
+batch
+blocking
+blocking strict
+
+
+--dynamic audit configuration
+
+two things to keep in mind;
+security and performance
+
+
+
+---minikube
+minikube start
+
+
+audit log file + fluentd
+audit webhook file + logstash
+audit webhook file + falco
+
+
+
+
+
+
+

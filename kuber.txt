@@ -1,0 +1,7 @@
+------kubernetes deployments-----
+
+rego language:-(used in policy file)
+
+. rego playground
+
+
